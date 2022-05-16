@@ -27,7 +27,8 @@
 |회차|주제|이슈|진행자|비고|
 |---|---|---|---|---|
 |1|스코프||깃헙아이디||
-|2|이벤트 루프|[#1](https://github.com/Learning-React-42study/Learning-React/issues/1)|humonnom||
+|2|이벤트 루프||깃헙아이디||
+|3|useState구현|[#1](https://github.com/Learning-React-42study/Learning-React/issues/1)|humonnom||
 
 
 ## 6. 리액트 스터디 기록
