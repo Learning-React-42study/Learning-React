@@ -23,7 +23,7 @@
 //   this.render();
 // }
 
-import { useState } from "./myReact.js";
+import { useState, increaseRenderId } from "./myReact.js";
 
 // Our component code that uses hooks
 function RenderFunctionComponent() {
@@ -40,6 +40,7 @@ function RenderFunctionComponent() {
 
 // This is sort of simulating Reacts rendering cycle
 export default function App() {
+  increaseRenderId(); // 렌더 첫번째인지 체크위함
   cursor = 0; // resetting the cursor
   // new RenderFunctionComponent;
   // return <RenderFunctionComponent />; // render
