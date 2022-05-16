@@ -12,6 +12,7 @@
   "dependencies": {
     "@babel/core": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
+    "react": "^18.1.0",
     "serve": "^13.0.2"
   }
 }
