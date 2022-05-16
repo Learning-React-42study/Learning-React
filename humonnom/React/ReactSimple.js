@@ -1,5 +1,5 @@
-// 즉시실행함수
-const React = (function () {
+// simple version
+const ReactSimple = (function () {
   let value; // 선언(private value)
   const useState = (initValue) => {
     const state = () => value || initValue;
@@ -12,4 +12,4 @@ const React = (function () {
   return { useState };
 })();
 
-export default React;
+export default ReactSimple;
