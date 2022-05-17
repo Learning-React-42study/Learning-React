@@ -17,7 +17,7 @@
  
 ## 4.구성원
   - [](https://github.com/)
-  - [](https://github.com/)
+  - [rightkingleftking](https://github.com/rightkingleftking)
   - [humonnom](https://github.com/humonnom)
 
 
@@ -27,7 +27,7 @@
 |회차|주제|위키|진행자|비고|
 |---|---|---|---|---|
 |1|클로저||깃헙아이디||
-|2|이벤트 루프||깃헙아이디||
+|2|이벤트 루프||rightkingleftking||
 |3|함수심화||humonnom||
 
 
