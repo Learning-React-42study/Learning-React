@@ -17,7 +17,7 @@
  
 ## 4.구성원
   - [](https://github.com/)
-  - [rightkingleftking](https://github.com/rightkingleftking)
+  - [gangsano](https://github.com/gangsano)
   - [humonnom](https://github.com/humonnom)
 
 
@@ -27,7 +27,7 @@
 |회차|주제|위키|진행자|비고|
 |---|---|---|---|---|
 |1|클로저||깃헙아이디||
-|2|이벤트 루프|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84-:-%EC%BD%9C%EB%B0%B1-%ED%8C%A8%ED%84%B4%EC%9D%98-%ED%99%9C%EC%9A%A9)|rightkingleftking|비동기 개념 설명, 콜백 패턴 활용|
+|2|이벤트 루프|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84-:-%EC%BD%9C%EB%B0%B1-%ED%8C%A8%ED%84%B4%EC%9D%98-%ED%99%9C%EC%9A%A9)|gangsano|비동기 개념 설명, 콜백 패턴 활용|
 |3|함수심화||humonnom||
 
 
