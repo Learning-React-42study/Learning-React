@@ -29,8 +29,9 @@
 |1|scope|[link](https://github.com/Learning-React-42study/Learning-React/wiki/scope)|hyew-kim|scope개념, var와 let 변수|
 |2|이벤트 루프|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84-:-%EC%BD%9C%EB%B0%B1-%ED%8C%A8%ED%84%B4%EC%9D%98-%ED%99%9C%EC%9A%A9)|ggsno|비동기 개념 설명, 콜백 패턴 활용|
 |3|함수심화||humonnom||
-|4|제너레이터|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%EC%A0%9C%EB%84%88%EB%A0%88%EC%9D%B4%ED%84%B0-generator)|ggsno|제너레이터, 이터레이터 이해|
-
+|4|프|[link](https://github.com/Learning-React-42study/Learning-React/wiki/promise,-async,-await)|hyew-kim||
+|5|제너레이터|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%EC%A0%9C%EB%84%88%EB%A0%88%EC%9D%B4%ED%84%B0-generator)|ggsno|제너레이터, 이터레이터 이해|
+|6|실행 컨텍스트|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%EC%8B%A4%ED%96%89-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8)|humonnom||
 
 ## 6. 리액트 스터디 기록
 
