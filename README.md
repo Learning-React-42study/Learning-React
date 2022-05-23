@@ -31,7 +31,7 @@
 |3|함수심화|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%ED%95%A8%EC%88%98)|humonnom|함수를 정의하는 방식과 일반함수/화살표함수 간의 차이|
 |4|프로미스|[link](https://github.com/Learning-React-42study/Learning-React/wiki/promise,-async,-await)|hyew-kim||
 |5|제너레이터|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%EC%A0%9C%EB%84%88%EB%A0%88%EC%9D%B4%ED%84%B0-generator)|ggsno|제너레이터, 이터레이터 이해|
-|6|실행 컨텍스트|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%EC%8B%A4%ED%96%89-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8)|humonnom|실행컨텍스트의 개념과 |
+|6|실행 컨텍스트|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%EC%8B%A4%ED%96%89-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8)|humonnom|실행컨텍스트의 개념과 동작방식|
 
 ## 6. 리액트 스터디 기록
 
