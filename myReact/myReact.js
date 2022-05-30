@@ -10,10 +10,11 @@ const React = (function () {
   }
 
   const handleFirstRender = (initVal, renewVal) => {
-    if (!isFirstRender()) return ;
-    const setter = renewVal ? createSetter(cursor, renewVal) : createSetter(cursor)
-    states.push(initVal);
-    setters.push(setter);
+    if (isFirstRender()){
+      const setter = renewVal ? createSetter(cursor, renewVal) : createSetter(cursor)
+      states.push(initVal);
+      setters.push(setter);
+    }
   }
   
   function useReducer(renewVal, initVal) {
