@@ -1,5 +1,5 @@
 import React from "./myReact.js";
-function ExampleComponent({ $element, onRerender }) {
+function ButtonsComp({ $element, onRerender }) {
   const [count, setCount] = React.useState(0); // cursor: 0
   const [clover, setClover] = React.useState(false); // cursor: 1
   const [soundOn, setSoundOn] = React.useReducer((soundOn) => !soundOn, false);
@@ -36,18 +36,19 @@ function ExampleComponent({ $element, onRerender }) {
       .querySelector(".soundControl")
       .addEventListener("click", handleSoundControl);
   };
-
   this.render();
 }
+
+
 
 export default function App({ $target }) {
   this.$element = document.createElement("div");
   $target.appendChild(this.$element);
-
   const onRerender = () => {
     React.increaseRenderId(); 
     React.initCursor(); 
-    new ExampleComponent({ $element: this.$element, onRerender });
+    new ButtonsComp({ $element: this.$element, onRerender });
+    // new CatsComp({ $element: this.$element, onRerender });
   };
   onRerender();
 }
