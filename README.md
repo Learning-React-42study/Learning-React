@@ -37,4 +37,4 @@
 
 |회차|분량|위키|진행자|비고|
 |---|---|---|---|---|
-|1|0-30page||humonnom|| => 예시
+|1|143-171page|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%83%81%ED%83%9C-%EA%B4%80%EB%A6%AC)|ggsno|리액트 상태관리|
