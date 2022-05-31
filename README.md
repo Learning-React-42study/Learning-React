@@ -38,4 +38,4 @@
 |회차|분량|위키|진행자|비고|
 |---|---|---|---|---|
 |1|143-171page|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%83%81%ED%83%9C-%EA%B4%80%EB%A6%AC)|ggsno|리액트 상태관리|
-|3|205-217page|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%5BReact%5D-%ED%9B%85%EC%8A%A4%EB%A1%9C-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EA%B0%9C%EC%84%A0%ED%95%98%EA%B8%B0)|humonnom|리액트 상태관리|
+|3|205-217page|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%5BReact%5D-%ED%9B%85%EC%8A%A4%EB%A1%9C-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EA%B0%9C%EC%84%A0%ED%95%98%EA%B8%B0)|humonnom|useReducer와 리액트 최적화|
