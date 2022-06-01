@@ -31,6 +31,20 @@ const React = (function () {
     return [value, setter];
   }
 
+  // create reactDom Object
+  function createElement(...args) {
+    const [ type, props, ...children ] = args;
+   
+    return {
+      type,
+      props:{
+        ...props,
+        children
+      }
+    }
+  }
+
+
   const increaseRenderId = () => { renderId++ }
   const initCursor = () => { cursor = 0 }
   const incCursor = () => { cursor++ }
@@ -38,7 +52,15 @@ const React = (function () {
   const isFirstRender = () => renderId === 0;
   const getStateAndSetter = () => [states[cursor], setters[cursor]]
 
-  return { useState, useReducer, increaseRenderId, initCursor };
+  return { useState, useReducer, createElement, increaseRenderId, initCursor };
 })();
 
 export default React;
+
+/*
+render는 ReactDOM이 담당함
+  // render Actual DOM using React DOM(object)
+  function render() {
+    //console.log("render");
+  }
+*/
