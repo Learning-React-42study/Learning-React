@@ -1,14 +1,12 @@
-import { useState, useContext } from 'react'
-import { ColorContext } from './main'
+import React from "react";
+import ColorList from "./ColorList.jsx";
+import AddColorForm from "./AddColorForm.jsx";
 
-const {colors} = useContext(ColorContext);
-console.log(colors);
-function App() {
+export default function App() {
   return (
-    <div>
-      HI
-    </div>
-  )
+    <>
+      <AddColorForm />
+      <ColorList />
+    </>
+  );
 }
-
-export default App
