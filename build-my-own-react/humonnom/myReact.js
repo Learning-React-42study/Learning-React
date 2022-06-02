@@ -1,3 +1,5 @@
+import { isObject } from "./utils/util";
+
 const React = (function () {
   let states = [];
   let setters = [];
@@ -39,13 +41,24 @@ const React = (function () {
     return [value, setter];
   }
 
-  // create reactDom Object
   function createElement(type, props, ...children) {
     return {
       type,
       props: {
         ...props,
-        children,
+        children: children.map((child) =>
+          isObject(typeof child) ? child : createTextElement(child)
+        ),
+      },
+    };
+  }
+
+  function createTextElement() {
+    return {
+      type: "TEXT_ELEMENT",
+      props: {
+        nodeValue: text,
+        children: [],
       },
     };
   }
@@ -69,7 +82,6 @@ const React = (function () {
 })();
 
 export default React;
-
 /*
 render는 ReactDOM이 담당함
   // render Actual DOM using React DOM(object)
