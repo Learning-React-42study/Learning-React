@@ -10,10 +10,11 @@ const React = (function () {
   }
 
   const handleFirstRender = (initVal, renewVal) => {
-    if (!isFirstRender()) return ;
-    const setter = renewVal ? createSetter(cursor, renewVal) : createSetter(cursor)
-    states.push(initVal);
-    setters.push(setter);
+    if (isFirstRender()){
+      const setter = renewVal ? createSetter(cursor, renewVal) : createSetter(cursor)
+      states.push(initVal);
+      setters.push(setter);
+    }
   }
   
   function useReducer(renewVal, initVal) {
@@ -30,6 +31,20 @@ const React = (function () {
     return [value, setter];
   }
 
+  // create reactDom Object
+  function createElement(...args) {
+    const [ type, props, ...children ] = args;
+   
+    return {
+      type,
+      props:{
+        ...props,
+        children
+      }
+    }
+  }
+
+
   const increaseRenderId = () => { renderId++ }
   const initCursor = () => { cursor = 0 }
   const incCursor = () => { cursor++ }
@@ -37,7 +52,15 @@ const React = (function () {
   const isFirstRender = () => renderId === 0;
   const getStateAndSetter = () => [states[cursor], setters[cursor]]
 
-  return { useState, useReducer, increaseRenderId, initCursor };
+  return { useState, useReducer, createElement, increaseRenderId, initCursor };
 })();
 
 export default React;
+
+/*
+render는 ReactDOM이 담당함
+  // render Actual DOM using React DOM(object)
+  function render() {
+    //console.log("render");
+  }
+*/
