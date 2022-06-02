@@ -1,4 +1,4 @@
-import { isObject } from "./utils/util";
+import { isObject } from "./utils/util.js";
 
 const React = (function () {
   let states = [];
@@ -78,7 +78,14 @@ const React = (function () {
   const isFirstRender = () => renderId === 0;
   const getStateAndSetter = () => [states[cursor], setters[cursor]];
 
-  return { useState, useReducer, createElement, increaseRenderId, initCursor };
+  return {
+    useState,
+    useReducer,
+    createElement,
+    createTextElement,
+    increaseRenderId,
+    initCursor,
+  };
 })();
 
 export default React;
