@@ -16,5 +16,6 @@ export default function App({ $target }) {
       src: "https://reactjs-kr.firebaseapp.com/logo-og.png",
     });
   };
+
   onRerender();
 }

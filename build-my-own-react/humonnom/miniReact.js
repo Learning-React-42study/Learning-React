@@ -6,6 +6,7 @@ const React = (function () {
   let renderId = -1;
   let cursor = 0;
 
+  console.log("REACT RENDERING!!!!");
   function createSetter(cursor, renewVal) {
     if (renewVal)
       return (arg) => {

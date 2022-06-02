@@ -1,19 +1,14 @@
 import React from "../miniReact.js";
+import ReactDOM from "../miniReactDOM.js";
 export default function PhotoBoxComp({ $element, onRerender, src }) {
   /* with miniReact.createElement */
   this.render = () => {
-    const $imgDiv = document.createElement("div");
-    $imgDiv.innerHTML = `
-		<img src=${src} width="300"/>
-	`;
-    const $imgDivUsingminiReact = React.createElement(
+    const imgElement = React.createElement(
       "div",
       { id: "apple-img" },
-      React.createElement("img", { src: src, width: "300px" })
+      React.createElement("img", { src: src, width: "300" })
     );
-    console.log($imgDivUsingminiReact);
-    $element.append($imgDiv);
-    // ReactDOM.render();
+    ReactDOM.render(imgElement, $element);
   };
 
   this.render();
