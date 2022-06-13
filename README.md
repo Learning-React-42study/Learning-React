@@ -69,3 +69,4 @@
 |2|172-204page| - |hyewkim|useContext, useEffect, useMemo, useCallback|
 |3|205-217page|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%5BReact%5D-%ED%9B%85%EC%8A%A4%EB%A1%9C-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EA%B0%9C%EC%84%A0%ED%95%98%EA%B8%B0)|humonnom|useReducer와 리액트 최적화|
 |4|219-234page|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%5BReact%5D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%9A%94%EC%B2%AD%ED%95%98%EA%B8%B0%EC%99%80-%EB%A0%8C%EB%8D%94%ED%94%84%EB%A1%AD)|ggsno|데이터 요청하기와 렌더프롭|
+|5|235-264page|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%EA%B0%80%EC%83%81%ED%99%94%EB%90%9C-%EB%A6%AC%EC%8A%A4%ED%8A%B8)|ggsno|가상화된 리스트|
