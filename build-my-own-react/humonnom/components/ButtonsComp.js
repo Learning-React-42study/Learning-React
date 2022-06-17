@@ -1,7 +1,7 @@
-import React from "../myReact.js";
+import React from "../miniReact.js";
 
 export default function ButtonsComp({ $element, onRerender }) {
-  const [count, setCount] = React.useState(0); 
+  const [count, setCount] = React.useState(0);
   const [clover, setClover] = React.useState(false);
   const [soundOn, setSoundOn] = React.useReducer((soundOn) => !soundOn, false);
 
