@@ -46,7 +46,6 @@ function render(element, container) {
 }
 
 let nextUnitOfWork = null;
-
 function workLoop(deadline) {
   let shouldYield = false;
   while (nextUnitOfWork && !shouldYield) {
