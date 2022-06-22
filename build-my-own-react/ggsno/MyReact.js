@@ -64,6 +64,7 @@ function performUnitOfWork(fiber) {
     fiber.dom = createDom(fiber);
   }
 
+  // 1. add the element to the DOM
   if (fiber.parent) {
     fiber.parent.dom.appendChild(fiber.dom);
   }
@@ -72,6 +73,7 @@ function performUnitOfWork(fiber) {
   let index = 0;
   let prevSibling = null;
 
+  // 2. create the fibers for the element's children
   while (index < elements.length) {
     const element = elements[index];
 
@@ -92,6 +94,7 @@ function performUnitOfWork(fiber) {
     index++;
   }
 
+  // 3. select the next unit of work
   if (fiber.child) {
     return fiber.child;
   }
