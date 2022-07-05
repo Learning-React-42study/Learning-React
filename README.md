@@ -72,3 +72,4 @@
 |5|235-264page|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%5BReact%5D-%EA%B0%80%EC%83%81%ED%99%94%EB%90%9C-%EB%A6%AC%EC%8A%A4%ED%8A%B8)|ggsno|가상화된 리스트|
 |6|265-273page|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%5BReact%5D-GraphQL,-axios)|hyewkim|GraphQL, Axios|
 |7|275-304page|[link](https://github.com/Learning-React-42study/Learning-React/wiki/%5BReact%5D-Suspense)|humonnom|Suspense|
+|8|347-365page|위키없음(업데이트 예정)|humonnom|리액트 라우터|
