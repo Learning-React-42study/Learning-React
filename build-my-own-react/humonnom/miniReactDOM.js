@@ -1,6 +1,11 @@
 import { isProperty } from "./utils/util.js";
 
+/*
+render는 ReactDOM이 담당함
+*/
+
 const ReactDOM = (function () {
+  const createRoot = () => {};
   const render = (element, $container) => {
     console.log(element);
     const $dom = document.createElement(element.type);
@@ -16,7 +21,7 @@ const ReactDOM = (function () {
     $container.appendChild($dom);
   };
 
-  return { render };
+  return { render, createRoot };
 })();
 
 export default ReactDOM;
