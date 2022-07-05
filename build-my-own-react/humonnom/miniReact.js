@@ -6,7 +6,6 @@ const React = (function () {
   let renderId = -1;
   let cursor = 0;
 
-  console.log("REACT RENDERING!!!!");
   function createSetter(cursor, renewVal) {
     if (renewVal)
       return (arg) => {
@@ -90,10 +89,3 @@ const React = (function () {
 })();
 
 export default React;
-/*
-render는 ReactDOM이 담당함
-  // render Actual DOM using React DOM(object)
-  function render() {
-    //console.log("render");
-  }
-*/
