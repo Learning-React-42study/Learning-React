@@ -1,8 +1,9 @@
 import React from "react";
 import Menu from "./Menu";
 import recipes from "./recipes.json";
-import { createRoot } from "react-dom/client";
+import * as ReactDOMClient from "react-dom/client";
 
-createRoot(document.getElementById("root")).render(
+ReactDOMClient.hydrateRoot(
+  document.getElementById("root"),
   <Menu recipes={recipes} title="맛있는 조리법" />
 );

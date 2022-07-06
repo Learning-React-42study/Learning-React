@@ -2,14 +2,15 @@ import express from "express";
 import React from "react";
 import ReactDOMServer from "react-dom/server";
 import Menu from "../src/Menu";
+import fs from "fs";
 
 const app = express();
 
-app.use(express.static("./build"));
-
 const PORT = process.env.PORT || 4000;
 
-app.get("/*", (req, res) => {
+app.use(express.static("./build"));
+
+app.get((req, res) => {
   const menuApp = ReactDOMServer.renderToString(<Menu />);
   const indexFile = path.resolve("./build.index.html");
   fs.readFile(indexFile, "utf8", (err, data) =>
